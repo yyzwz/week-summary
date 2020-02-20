@@ -1,0 +1,25 @@
+/*登入页面总的模块*/
+body{
+    background-color: #0C0C0C;
+}
+/*登入页面 头部模块*/
+.header{
+    background-size: 100%;
+    height: 40%;
+}
+/*登入页面 下方模块 的中间表单部分*/
+#content{
+    width:40%;
+    margin: 0 30% 0 30%;
+    height: 53%;
+}
+
+/*注册表单的 验证码 部分*/
+#code{
+    font-family:Arial;
+    font-style:italic;
+    font-weight:bold;
+    letter-spacing:2px;
+    color: #393D49;
+    width: 70px;
+}

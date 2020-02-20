@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--        是ypc.zwz.dao.UsersDao的具体实现-->
+<mapper namespace="ypc.zwz.dao.UsersDao">
+
+    <!-- 这里的别名 和 数据库中真实的列明的对应-->
+    <resultMap id="AdminBaseMap" type="ypc.zwz.model.User">
+        <id property="a_id" column="a_id" jdbcType="INTEGER"/>
+        <result property="a_name" column="a_name" jdbcType="VARCHAR"/>
+        <result property="a_password" column="a_password" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!-- 根据用户名找 User类 -->
+    <select id="login" resultType="ypc.zwz.model.User" parameterType="String">
+        select * from admin where a_name = #{a_name}
+    </select>
+
+    <!-- 往用户表插入数据   注册的功能 -->
+    <insert id="insert" parameterType="ypc.zwz.model.User">
+        insert into admin( a_name, a_password ) values( #{a_name}, #{a_password} )
+    </insert>
+
+    <!-- 根据用户名用户 判断是否已注册用 -->
+    <select id="findByName" parameterType="String" resultType="ypc.zwz.model.User">
+        select a_name from admin where a_name = #{a_name}
+    </select>
+
+</mapper>
