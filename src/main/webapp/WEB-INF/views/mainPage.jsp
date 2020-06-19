@@ -91,6 +91,8 @@
                             <dd><a href="https://blog.csdn.net/qq_41464123" target="_blank" style="text-decoration: none;"><strong>CSDN博客</strong></a></dd>
                             <hr/>
                             <dd><a href="https://github.com/yuyaozwz" target="_blank" style="text-decoration: none;"><strong>github</strong></a></dd>
+                            <hr/>
+                            <dd><a href="https://gitee.com/yyzwz" target="_blank" style="text-decoration: none;"><strong>码云</strong></a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item"><a href="<%=basePath%>/users/outLogin.do" style="text-decoration: none;;"><strong>退出</strong></a></li>
