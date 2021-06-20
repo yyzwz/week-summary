@@ -1,30 +1,36 @@
-## WeekSummary(周总结云管理系统)
-- 使用SSM框架来实现周总结云盘，方便记录、查看、管理自己的ACM周总结
+# 基于SSM的文章管理系统
+
+本项目后端采用SSM框架,前端采用JQ、layui等技术,连接MySQL数据库,采用Idea工具进行开发,是我大三练习SSM的实战项目。  
+如今玩过Vue和SpringBoot前后端分离项目之后，回过头发现SSM的弊端————太繁琐了！  
+前者十行代码能解决的功能，SSM可能需要上百行，但SSM还是经典，是我入门的基础框架。  
+本项目作为一个老古董，放在这留个纪念把，希望能帮助到有需要的人！  
 
 
-### 本系统的初衷，是方便我们查看、记录、管理 周总结。
-大学四年中的点点滴滴，留下了甚多值得记录的地方。因为我也是ACMer的一员，所以项目名称暂定为“ACM周总结管理系统”。
-详细说明文档:https://blog.csdn.net/qq_41464123/article/details/104273171
+## 界面预览
 
-### 已经实现的功能：
+### 登入界面
+![登入界面](https://images.gitee.com/uploads/images/2021/0604/100857_4a53c5ea_7525468.png "11.png")
+### 文章撰写界面
+![文章撰写界面](https://images.gitee.com/uploads/images/2021/0604/100932_8f987ee3_7525468.png "11.png")
+### 文章查看界面
+![文章查看界面](https://images.gitee.com/uploads/images/2021/0604/101006_13cd36db_7525468.png "11.png")
+### 文章回收站
+![文章回收站](https://images.gitee.com/uploads/images/2021/0604/101036_5463ffb2_7525468.png "11.png")
+### 项目详情
 
-- 根据用户名、密码进行登入、注册，从而进入系统。
-- 对数据库进行增删查，来实现对ACM周总结的增删查。
-- 对周总结进行留言功能，实质上是采用数据库建表，来实现留言回复功能。
+## 安装教程
+1.本机安装GIT，输入命令
+```java
+git clone https://gitee.com/yyzwz/WeekSummary.git
+```
+2.使用idea导入该项目，maven方式导入
 
+3.导入数据库（summary.sql）
 
-### 未来将实现的功能：
+4.运行项目，账号admin 密码123456
 
-- 对数据库进行修改，来实现对ACM周总结的修改。
-- 再次提高审美水平，美化界面效果。
-- 再次规范整理前端静态资源(css、js、图片)。
-- 由于第一次写项目，各种格式不太了解，若有不足之处，敬请谅解。
+### 欢迎光临我的博客：https://zwz99.blog.csdn.net/
+![我的CSDN博客](https://images.gitee.com/uploads/images/2021/0604/100703_32e14138_7525468.jpeg "132246_599dbf21_7525468.jpeg")
 
-
-### 相关组件版本：
-
-- 环境：jdk11 + mysql5.5.28 + maven3.6.3 + tomcat8.0.9/8.5.53 + IDEA2019.3
-- 后端：spring + springmvc + mybatis
-- 前端：jQuery + layui + bootstrap + editor(Markdown富文本编辑器)
-- 数据库名称：summary
-
+### 和我的公众号：元培ACM社团
+![我的微信公众号](https://images.gitee.com/uploads/images/2021/0604/100801_30c6572c_7525468.jpeg "aaaaaa.jpg")

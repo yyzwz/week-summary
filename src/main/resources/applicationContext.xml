@@ -47,5 +47,4 @@
         <property name="basePackage" value="ypc.zwz.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
-
 </beans>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="WeekSummary-V1.1-master:war exploded" />
+      <artifact name="WeekSummary:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -31,8 +31,12 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -44,8 +48,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/temp_code/maven" />
-        <option name="userSettingsFile" value="D:\temp_code\maven\conf\settings.xml" />
+        <option name="localRepository" value="C:\java\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven" />
+        <option name="userSettingsFile" value="C:\java\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -61,14 +66,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/static/img" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,94 +88,14 @@
       <recent name="E:\temp\ssm\WeekSummary\src\main\webapp\static\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.53">
-    <configuration name="UsersControllerTest.saveSummaryControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekSummary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ypc.zwz.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ypc.zwz.controller" />
-      <option name="MAIN_CLASS_NAME" value="ypc.zwz.controller.UsersControllerTest" />
-      <option name="METHOD_NAME" value="saveSummaryControllerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersControllerTest.saveSummaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekSummary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ypc.zwz.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ypc.zwz.controller" />
-      <option name="MAIN_CLASS_NAME" value="ypc.zwz.controller.UsersControllerTest" />
-      <option name="METHOD_NAME" value="saveSummaryTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersControllerTest.summaryDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekSummary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ypc.zwz.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ypc.zwz.controller" />
-      <option name="MAIN_CLASS_NAME" value="ypc.zwz.controller.UsersControllerTest" />
-      <option name="METHOD_NAME" value="summaryDaoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersControllerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekSummary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ypc.zwz.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ypc.zwz.controller" />
-      <option name="MAIN_CLASS_NAME" value="ypc.zwz.controller.UsersControllerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersDaoTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WeekSummary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ypc.zwz.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ypc.zwz.dao" />
-      <option name="MAIN_CLASS_NAME" value="ypc.zwz.dao.UsersDaoTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.53" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WeekSummary_V1_1_master_war_exploded/" />
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.53" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="WeekSummary-V1.1-master:war exploded">
+        <artifact name="WeekSummary:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/WeekSummary_V1_1_master_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -232,33 +159,15 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="WeekSummary:war exploded" />
-          <artifact name="WeekSummary-V1.1-master:war exploded" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.UsersControllerTest.test" />
-      <item itemvalue="JUnit.UsersDaoTest.loginTest" />
-      <item itemvalue="JUnit.UsersControllerTest.summaryDaoTest" />
-      <item itemvalue="JUnit.UsersControllerTest.saveSummaryTest" />
-      <item itemvalue="JUnit.UsersControllerTest.saveSummaryControllerTest" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.53" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.UsersControllerTest.saveSummaryControllerTest" />
-        <item itemvalue="JUnit.UsersControllerTest.saveSummaryTest" />
-        <item itemvalue="JUnit.UsersControllerTest.summaryDaoTest" />
-        <item itemvalue="JUnit.UsersControllerTest.test" />
-        <item itemvalue="JUnit.UsersDaoTest.loginTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.06827586" />
+          <option name="contentProportion" value="0.116240725" />
           <treeState>
             <expand>
               <path>
@@ -299,6 +208,10 @@
       <workItem from="1582182524259" duration="4121000" />
       <workItem from="1582193555937" duration="2949000" />
       <workItem from="1592525258875" duration="682000" />
+      <workItem from="1606561537076" duration="1620000" />
+      <workItem from="1606962783040" duration="670000" />
+      <workItem from="1608596331151" duration="130000" />
+      <workItem from="1622770693843" duration="1613000" />
     </task>
     <servers />
   </component>
@@ -306,65 +219,73 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592525354442">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="903" y="198" key="#Tomcat_Server" timestamp="1622770912359">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592525354442" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1592525302074">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="903" y="198" key="#Tomcat_Server/62.0.2498.1080@62.0.2498.1080" timestamp="1622770912359" />
+    <state x="765" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622770928891">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592525302074" />
-    <state width="1205" height="127" key="GridCell.Tab.0.bottom" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="765" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.2498.1080@62.0.2498.1080" timestamp="1622770928891" />
+    <state x="903" y="198" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1622770914250">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.0.center" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="903" y="198" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/62.0.2498.1080@62.0.2498.1080" timestamp="1622770914250" />
+    <state x="1091" y="280" key="FileChooserDialogImpl" timestamp="1622770909920">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.0.left" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1091" y="280" key="FileChooserDialogImpl/62.0.2498.1080@62.0.2498.1080" timestamp="1622770909920" />
+    <state width="2143" height="295" key="GridCell.Tab.0.bottom" timestamp="1622772307700">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.0.right" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.0.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307700" />
+    <state width="2143" height="295" key="GridCell.Tab.0.center" timestamp="1622772307700">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.1.bottom" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.0.center/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307700" />
+    <state width="2143" height="295" key="GridCell.Tab.0.left" timestamp="1622772307700">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.1.center" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.0.left/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307700" />
+    <state width="2143" height="295" key="GridCell.Tab.0.right" timestamp="1622772307700">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.1.left" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.0.right/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307700" />
+    <state width="2143" height="295" key="GridCell.Tab.1.bottom" timestamp="1622772307701">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.1.right" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.1.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307701" />
+    <state width="2143" height="295" key="GridCell.Tab.1.center" timestamp="1622772307701">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.2.bottom" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.1.center/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307701" />
+    <state width="2143" height="295" key="GridCell.Tab.1.left" timestamp="1622772307700">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.2.center" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.1.left/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307700" />
+    <state width="2143" height="295" key="GridCell.Tab.1.right" timestamp="1622772307701">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.2.left" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.1.right/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307701" />
+    <state width="2143" height="295" key="GridCell.Tab.2.bottom" timestamp="1622772307701">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state width="1205" height="127" key="GridCell.Tab.2.right" timestamp="1592525901820">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.2.bottom/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307701" />
+    <state width="2143" height="295" key="GridCell.Tab.2.center" timestamp="1622772307701">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state width="1205" height="127" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1592525901820" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1592525959126">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="2143" height="295" key="GridCell.Tab.2.center/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307701" />
+    <state width="2143" height="295" key="GridCell.Tab.2.left" timestamp="1622772307701">
+      <screen x="62" y="0" width="2498" height="1080" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592525959126" />
+    <state width="2143" height="295" key="GridCell.Tab.2.left/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307701" />
+    <state width="2143" height="295" key="GridCell.Tab.2.right" timestamp="1622772307701">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="2143" height="295" key="GridCell.Tab.2.right/62.0.2498.1080@62.0.2498.1080" timestamp="1622772307701" />
+    <state x="791" y="114" key="SettingsEditor" timestamp="1622771331391">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="791" y="114" key="SettingsEditor/62.0.2498.1080@62.0.2498.1080" timestamp="1622771331391" />
   </component>
 </project>
